@@ -8,7 +8,7 @@ public class Multiplication {
             }
         }
         else {
-            for (int i = 0; i <= multiplyByAndToInclusive; i--) {
+            for (int i = 0; i >= multiplyByAndToInclusive; i--) {
                 System.out.println(i * multiplyByAndToInclusive);
             }
         }
